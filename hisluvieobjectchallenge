@@ -1,0 +1,33 @@
+#lesson 14
+#define my class
+#name my class and (give it an argument)
+class Luvie
+def set_name= (luvie_name)
+@name=luvie_name
+end
+
+#ask what the name is so it can be used later
+def get_name
+return @name
+end
+
+def action
+return "grrrr"
+end
+end
+
+
+
+
+
+#create a class, then save it as a variable
+his_luvie = Luvie.new
+
+#set the name
+his_luvie.set_name= "Baby Jaguar"
+
+#get the name to use later by using the gets method
+luvie_name=his_luvie.get_name
+
+#string out the sentence
+puts "Levi's favorite luvie, #{luvie_name}, loves to #{his_luvie.action}!!"
